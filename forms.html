@@ -8,77 +8,86 @@
   </head>
 
   <body>
-    <form action="/action_page.php">
-      <label for="username">Username:</label><br>
-      <input type="text" id="username" name="username" value="pasang"><br>
-      <label for="pwd">password:</label><br>
-      <input type="password" id="pwd" name="pwd" value="Sherpa">
-      <input type="submit" value="submit">
-      <input type="reset" value="Reset">
-    </form><br>
+    <fieldset>
+      <legend>Form</legend>
+      <form action="mailto:apasangsherpa22@gmail.com" method="post" enctype="text/plain">
 
-    <form action="/action_page.php">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="AP"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" value="Sherpa"><br>
-      <input type="submit" value="Submit">
-      <input type="reset" value="Reset">
-    </form>
-    <br>
+        <p>
+          <label for="username">Username:</label><br>
+          <input type="text" placeholder="Username" id="username" name="username" value=""><br>
+          <label for="pwd">password:</label><br>
+          <input type="password" placeholder="Password" id="pwd" name="pwd" value="">
+        </p>
 
-    <!-- select only one choice -->
-    <form>
-      <input type="radio" id="html" name="fav_language" value="HTML">
-      <label for="html">HTML:</label><br>
-      <input type="radio" id="css" name="fav_language" value="CSS">
-      <label for="css">CSS</label><br>
-      <input type="radio" id="javascript" name="fav_language" value="Javascript">
-      <label for="javascript">Javascript</label><br>
-      <input type="submit" value="submit">
+        <p>
+          <label for="first name">First name:</label><br>
+          <input type="text" placeholder="first name" id="first name" name="firstname" value=""><br>
+          <label for="middle name">Middle name</label><br>
+          <input type="text" placeholder="middle name" id="middle name" name="middle name" value=""><br>
+          <label for="last name">Last name:</label><br>
+          <input type="text" placeholder="last name" id="last name" name="last name" value=""><br>
+          <label for="email">Email</label><br>
+          <input type="email" placeholder="email" id="email" name="email" value="">
+        </p>
 
-    </form>
-    <!-- select one or more choice -->
-    <form>
-      <input type="checkbox" id="html" name="fav_language" value="HTML">
-      <label for="html">HTML:</label><br>
-      <input type="checkbox" id="css" name="fav_language" value="CSS">
-      <label for="css">CSS</label><br>
-      <input type="checkbox" id="javascript" name="fav_language" value="Javascript">
-      <label for="javascript">Javascript</label><br>
-      <input type="submit" value="submit">
-      <input type="reset" value="Reset">
-    </form><br>
 
-    <form>
-      <input type="button" onclick="alert('Hello World')" value="Click Me!">
-    </form><br>
+        <!-- select only one choice -->
+        <h3>Select One Course</h3>
+        <p>
+          <input type="radio" placeholder="html" id="html" name="fav_language" value="HTML">
+          <label for="html">HTML:</label><br>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+          <label for="css">CSS</label><br>
+          <input type="radio" id="javascript" name="fav_language" value="Javascript">
+          <label for="javascript">Javascript</label><br>
+        </p>
 
-    <form>
-      <label for="favcolor">Select your favorite color:</label>
-      <input type="color" id="favcolor" name="favcolor">
-    </form><br>
+        <!-- select one or more choice -->
 
-    <input type="date"><br>
-    <input type="time"><br>
-    <form>
-      <label for="birthday">Birthday:</label>
-      <input type="date" id="birthday" name="birthday">
-    </form><br>
-    <form>
-      <label for="myphoto">Select a photo:</label>
-      <input type="photo" id="myphoto" name="myphoto">
-    </form><br>
-    <form>
-      <label for="Myfile">Select a file:</label>
-      <input type="file" id="Myfile" name="Myfile">
-    </form><br>
-    <form>
-      <input type="image"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX48JYpPPow8zQXp34oKHyqRbECSs1dUpOdw&s" alt="Submit"
-        width="48" height="48">
-    </form>
+        <h3>Select Courses</h3>
+        <p>
+          <input type="checkbox" id="html" name="fav_language" value="HTML">
+          <label for="html">HTML:</label><br>
+          <input type="checkbox" id="css" name="fav_language" value="CSS">
+          <label for="css">CSS</label><br>
+          <input type="checkbox" id="javascript" name="fav_language" value="Javascript">
+          <label for="javascript">Javascript</label>
+        </p>
 
+        <p>
+          <input type="button" onclick="alert('Hello World')" value="Click Me!">
+        </p>
+
+        <p>
+          <label for="favcolor">Select your favorite color:</label>
+          <input type="color" id="favcolor" name="favcolor">
+        </p>
+
+        <input type="date"><br>
+        <input type="time"><br>
+        <p>
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday">
+        </p>
+        <p>
+          <label for="myphoto">Select a photo:</label>
+          <input type="photo" id="myphoto" name="myphoto">
+        </p>
+        <p>
+          <label for="Myfile">Select a file:</label>
+          <input type="file" id="Myfile" name="Myfile">
+        </p><br>
+        <p>
+          <input type="image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX48JYpPPow8zQXp34oKHyqRbECSs1dUpOdw&s"
+            alt="Submit" width="48" height="48">
+        </p> <br>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset">
+
+      </form>
+    </fieldset>
   </body>
 
 </html>
