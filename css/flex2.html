@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: b;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        padding: 20px;
+        gap: 20px;
+
+      }
+
+      .bx,
+      .dx {
+        max-width: 100%;
+        height: 250px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        /* align-items: center; */
+        /* flex-direction: column; */
+        background-image: url(https://media.istockphoto.com/id/1442179368/photo/maldives-island.webp?b=1&s=170667a&w=0&k=20&c=i8wK-BoIq_B365rf0oMRBNmuMc4U1zlTUllMuyr_QNw=);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+      }
+
+      .bx:hover .bx3,
+      .dx:hover .dx1 {
+        align-self: self-end;
+      }
+
+      img {
+        width: 200px;
+        height: 200px;
+
+      }
+
+      .bx1,
+      .bx2,
+      .bx3 {
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        background-color: red;
+        box-shadow: 10px 5px 5px red;
+      }
+
+
+      .dx1,
+      .dx2 {
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        background-color: ;
+        box-shadow: 10px 5px 5px red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>CSS flex</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="bx">
+      <div class="bx1">
+        <img src="https://images.unsplash.com/photo-1433477155337-9aea4e790195?ixlib=rb-4.0.3" alt="moutain">
+
+      </div>
+      <div class="bx2">
+        <img src="https://petapixel.com/assets/uploads/2022/12/what-is-unsplash-800x420.jpg" alt="sunraise">
+      </div>
+      <div class="bx3">
+        <img
+          src="https://media.istockphoto.com/id/950122348/photo/cyclops-eyes-sunstars-effect-through-male-photographer-eyes-in-morning-sunrise.jpg?s=612x612&w=0&k=20&c=e7m4HiTd0jursefa8caJiGe1pKRo0UPPqtN7_ShjMbk="
+          alt="cyclops-eyes-sunstars-effect-through-male-photographer-eyes-in-morning-sunrise">
+      </div>
+      <p></p>
+
+    </div> <br>
+    <div class="dx">
+      <div class="dx1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5eMzfU-pWyXXT4MoCQPoLhdLWGp2e-7popQ&s"
+          alt="Flower">
+      </div>
+      <div class="dx2">
+        <img
+          src="https://img.freepik.com/free-photo/freshness-beauty-nature-wet-drops-generated-by-ai_188544-42230.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1724025600&semt=ais_hybrid"
+          alt="leaves">
+      </div>
+    </div>
+
+  </body>
+
+</html>
